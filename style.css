@@ -6,8 +6,18 @@ body {
   margin: 20px;
 }
 
+/* Heading Styling */
+h1 {
+  color: blueviolet;
+  text-align: center;
+}
+
 /* Text Properties section */
-.text-section {
+.text-section p {
+  color: blue;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: justify;
 }
 
 .box-model {
