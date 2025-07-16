@@ -10,6 +10,7 @@ body {
 h1 {
   color: blueviolet;
   text-align: center;
+  text-transform: uppercase;
 }
 
 /* Text Properties section */
@@ -18,6 +19,8 @@ h1 {
   font-size: 20px;
   line-height: 1.2;
   text-align: justify;
+  font-weight: bolder;
+  font-style: italic;
 }
 
 .box-model {
@@ -29,4 +32,23 @@ h1 {
   /* 2px width Solid Green border */
   border: 2px solid green;
   background-color: cyan;
+}
+
+/* Background and border radius */
+.styled-box {
+  width: 250px;
+  padding: 15px;
+  margin: 20px auto;
+  background-color: blanchedalmond;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 8s ease;
+  box-shadow: 10px 5px 5px green;
+}
+
+/* hover pseudo-class can be used to change the style of an element on mouse hover state */
+.hover-button:hover {
+  background-color: black;
+  color: white;
 }
