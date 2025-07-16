@@ -1,6 +1,22 @@
 /* Global styles */
 
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: lightgrey;
+  margin: 20px;
+}
+
 /* Text Properties section */
 .text-section {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.box-model {
+  width: 300px;
+  height: 100px;
+  /* Vertical margin and center alignment using auto for horizontal margin */
+  margin: 20px auto;
+  padding: 20px;
+  /* 2px width Solid Green border */
+  border: 2px solid green;
+  background-color: cyan;
 }
