@@ -52,3 +52,13 @@ h1 {
   background-color: black;
   color: white;
 }
+
+#tree {
+  width: 400px;
+  height: 250px;
+  background-color: blue;
+  margin: 20px auto;
+  background-image: url("tree.jpg");
+  background-size: cover; /* image will cover entire container */
+  background-repeat: no-repeat;
+}
