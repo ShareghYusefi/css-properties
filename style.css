@@ -62,3 +62,33 @@ h1 {
   background-size: cover; /* image will cover entire container */
   background-repeat: no-repeat;
 }
+
+input:invalid {
+  border-style: solid;
+  border-color: red;
+  border-width: 2px;
+  background-color: orange;
+}
+
+input:valid {
+  border-style: solid;
+  border-color: green;
+  border-width: 2px;
+  background-color: aqua;
+}
+
+a:link {
+  color: cadetblue;
+}
+
+a:visited {
+  color: brown;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: darkgreen;
+}
